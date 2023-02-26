@@ -1,0 +1,272 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{ 
+    background-color: #ddd;
+    font-family: "open sans" , sans-serif;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+.fa-newspaper{
+    color: rgb(129, 99, 99);
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.fa-globe{
+    background-color: rgb(38, 26, 1);
+    font-size: 60px;
+    color: rgb(0, 255, 242);
+    animation:logo 5s linear 1s infinite reverse;
+    
+}
+@media (max-width: 768px) {
+    .fa-globe{
+        font-size: 40px;
+    }
+}
+@keyframes logo {
+    20% {
+        color: rgb(255, 255, 255);
+    }
+    30%{
+        color: rgb(239, 243, 5);
+    }
+    20%{
+        color: blue;
+    }
+    30%{
+        color: green;
+    }
+}
+.b0{
+    background-color: transparent;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.b0 {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+.b0 div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background-color: rgb(118, 74, 116);
+    border-radius: 50%;
+    margin: 0 5px;
+    animation-name: banzer0;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;/*حركة جميلة*/
+  }
+
+.b{
+    animation-delay: 0.3s;
+}
+.a{
+    animation-delay: 0.6s;
+}
+.k{
+    animation-delay: 0.9s;
+}
+.e{
+    animation-delay: 1.2s;
+}
+
+
+@keyframes banzer0{
+
+from{
+    background-color: rgb(0, 255, 89);
+    transform: translateY(0px);
+}
+
+to{
+    background-color: black;
+    transform: translateY(-20px);
+}
+}
+.hed{
+    background-color: rgb(38, 26, 1);
+}
+.w{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(61, 23, 3);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.w div{
+    
+    
+}
+.w div a{
+    text-decoration:none;
+    color: antiquewhite;
+}
+.w div a:hover{
+    color: rgb(0, 238, 255);
+}
+@media (max-width: 568px) {
+    .w div a{
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+.background{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.background img{
+    background-size:cover;
+    width: 40vh;
+    height: 40vh;
+}
+.w0 .text{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.w0 .text p{
+    font-size: 30px;
+}
+.m{
+    text-align: center;
+}
+.m h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(13, 100, 55);
+}
+.m p{
+    color: rgb(8, 1, 1);
+    font-size: larger;
+    background-color: rgb(201, 190, 183);
+}
+.m img{
+    background-size: cover;
+    width: 40vh;
+    height: 30vh;
+ 
+}
+.w2 .text{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.w2 .text p{
+    font-size: 30px;
+}
+.m2{
+    text-align: center;
+}
+.m2 h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(94, 100, 13);
+}
+.m2 p{
+    color: rgb(8, 1, 1);
+    font-size: larger;
+    background-color: rgb(201, 190, 183);
+}
+.m2 img{
+    background-size: cover;
+    width: 40vh;
+    height: 30vh;
+ 
+}
+
+.w3 .text{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.w3 .text p{
+    font-size: 30px;
+}
+.m3{
+    text-align: center;
+}
+.m3 h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(100, 13, 43);
+}
+.m3 p{
+    color: rgb(8, 1, 1);
+    font-size: larger;
+    background-color: rgb(201, 190, 183);
+}
+.m3 img{
+    background-size: cover;
+    width: 40vh;
+    height: 30vh;
+}
+.w4 .text{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.w4 .text p{
+    font-size: 30px;
+}
+.m4{
+    text-align: center;
+}
+.m4 h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(13, 27, 100);
+}
+.m4 p{
+    color: rgb(8, 1, 1);
+    font-size: larger;
+    background-color: rgb(201, 190, 183);
+}
+.m4 img{
+    background-size: cover;
+    width: 40vh;
+    height: 30vh;
+}
+.foot .container{
+    background-color: #bbb;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+
